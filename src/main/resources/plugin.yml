@@ -1,0 +1,11 @@
+name: DefuseTNT
+version: '${project.version}'
+main: beailotus_io.github.defusetnt.Main
+api-version: 1.19
+description: A simple plugin to allow a certain item to defuse ignited TNT before it explodes.
+website: https://github.com/beailotus/DefuseTNT
+commands:
+  defuse:
+    description: Defuse ignited TNT
+    usage: /defuse <reload/set-item>
+    permission: defuse.admin
